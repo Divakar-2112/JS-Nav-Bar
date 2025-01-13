@@ -8,6 +8,8 @@ body {
     font-family: "Lato", serif;
     font-size: larger;
     font-weight: 800;
+    cursor: pointer;
+    height: 100vh;
 }
 
 
@@ -71,6 +73,13 @@ ul{
     font-weight: 500;
     cursor: pointer;
 }
+li{
+    list-style: none;
+}
+ul li:hover {
+    transform: scale(1.1); /* Scale up the text inside the list item */
+    transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+  }
 .icons{
     display: flex;
     justify-content: center;
