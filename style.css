@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(152, 172, 199, 0.171);
+    font-family: "Lato", serif;
+    font-size: larger;
+    font-weight: 800;
+}
+
+
+.sideNavbar {
+    background-color: white;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    bottom: 0;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease-in-out; 
+    display: none;
+}
+.tittle{
+    font-size: 26px;
+    padding: 20px;
+    text-shadow: 3px 5px rgba(0, 0, 0, 0.1);   
+}
+span {
+    color: rgb(38, 168, 248); 
+    font-weight: 600;
+    text-shadow: 3px 5px rgba(38, 168, 248, 0.1);
+}
+.fa-bars {
+    padding: 8px;
+    font-size: 28px;
+    font-weight: bolder;
+    position: absolute;
+    right: 1%;
+    cursor: pointer;
+    
+}
+.fa-bars:hover{
+    animation: rotatebar 3s infinite; 
+    transform:scale(1.2)
+}
+.fa-xmark {
+    padding: 4px;
+    font-size: 28px;
+    font-weight: bolder;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;   
+}
+.fa-xmark:hover{
+    animation: rotateXMark 1s infinite; 
+}
+
+@keyframes rotateXMark {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.menuitems {
+    padding: 20px 0px;
+}
+ul{
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 14px;
+    position: fixed;
+    bottom: 12%;
+    left: 3%;
+    cursor: pointer;
+}
