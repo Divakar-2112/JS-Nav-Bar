@@ -44,7 +44,7 @@ span {
 }
 .fa-bars:hover{
     animation: rotatebar 3s infinite; 
-    transform:scale(1.2)
+    transform:scale(1.2);
 }
 .fa-xmark {
     padding: 4px;
@@ -77,9 +77,9 @@ li{
     list-style: none;
 }
 ul li:hover {
-    transform: scale(1.1); /* Scale up the text inside the list item */
-    transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
-  }
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+}
 .icons{
     display: flex;
     justify-content: center;
